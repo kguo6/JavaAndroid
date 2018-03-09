@@ -9,7 +9,6 @@ import android.widget.TextView;
 public class DisplayMessageActivity extends AppCompatActivity {
     private static Integer counter = 0;
     private String numberDisplay = counter.toString();
-    private TextView textView3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,13 +22,17 @@ public class DisplayMessageActivity extends AppCompatActivity {
         // Capture the layout's TextView and set the string as its text
         TextView textView = findViewById(R.id.textView);
         textView.setText(message);
+
+        TextView textView3;
         textView3 = findViewById(R.id.textView3);
         textView3.setText(numberDisplay);
     }
 
     public void count(View view){
-        counter = counter+1;
+        counter += 1;
         numberDisplay = counter.toString();
+
+        TextView textView3;
         textView3 = findViewById(R.id.textView3);
         textView3.setText(numberDisplay);
     }
