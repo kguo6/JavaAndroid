@@ -2,4 +2,8 @@
     <string name="app_name">JavaAndroid</string>
     <string name="button_label">Enter a value:</string>
     <string name="button_text">Press Me</string>
+    <string name="menu_text_1">Press Me</string>
+    <string name="menu_text_2">Press Me</string>
+    <string name="menu_text_3">Press Me</string>
+    <string name="menu_text_4">Press Me</string>
 </resources>
