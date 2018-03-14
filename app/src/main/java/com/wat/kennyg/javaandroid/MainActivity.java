@@ -12,6 +12,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 
+
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_MESSAGE = "com.wat.kennyg.javaandroid.MESSAGE";
     private DrawerLayout mDrawerLayout;
